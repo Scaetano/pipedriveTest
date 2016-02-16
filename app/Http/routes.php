@@ -21,12 +21,12 @@ Route::group(['prefix' => 'api', 'middleware' => 'token_auth'], function(){
 
 	Route::group(['middleware' => 'json_validation'], function(){
 		
-		Route::post('organizationRelationship', 'RelationshipController@create');
+		Route::post('organizationRelationship', 'OrganizationRelationshipController@create');
 	});
 
-	Route::get('organizationRelationship/{name}','RelationshipController@findByOrganizationName');
+	Route::get('organizationRelationship/{name}','OrganizationRelationshipController@findByOrganizationName');
 
-	Route::delete('organizationRelationship','RelationshipController@deleteAll');
+	Route::delete('organizationRelationship','OrganizationRelationshipController@deleteAll');
 
 });
 

@@ -19,7 +19,7 @@ use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Input;
 
-class RelationshipController extends Controller
+class OrganizationRelationshipController extends Controller
 {
 
     public function findByOrganizationName($name){

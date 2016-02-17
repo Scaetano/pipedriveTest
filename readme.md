@@ -1,6 +1,18 @@
 # Pipedrive Test Application
 This application has been created as a test for a Backend programmer job in Pipedrive Estonia.
 
+## Laravel installation
+
+1. Download composer for your OS at: https://getcomposer.org/
+
+2. Extract this project in your DocumentRoot folder.
+
+3. Run composer install in your folder
+
+```
+composer install
+```
+
 ## Database and APP_KEY Setup
 
 Open the .env.example file, change the database configuration with your local data, , save it and rename to .env .
